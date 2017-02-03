@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM compulsivecoder/ubuntu-base
 
 RUN apt-get update && apt-get -y upgrade
 
